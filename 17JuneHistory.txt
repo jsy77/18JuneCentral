@@ -1,0 +1,111 @@
+8  ls
+    9  cd mu
+   10  cd mumbaigit/
+   11  ls
+   12  git branch
+   13  git branch new
+   14  git branch
+   15  ls
+   16  git log --oneline
+   17  git checkout new
+   18  git branch
+   19  ls
+   20  git log --oneline
+   21  ls
+   22  git branch
+   23  vi file1
+   24  git add .
+   25  git commit -m "file1"
+   26  ls
+   27  git log --oneline
+   28  git checkout main
+   29  ls
+   30  git log --oneline
+   31  git branch
+   32  git checkout new
+   33  git branch
+   34  ls
+   35  vi file2
+   36  git checkout main
+   37  git branch
+   38  ls
+   39  git branch
+   40  ls
+   41  git checkout new
+   42  git branch
+   43  ls
+   44  git add .
+   45  git commit -m "file2"
+   46  ls
+   47  git log --oneline
+   48  git checkout main
+   49  git branch
+   50  ls
+   51  git log --oneline
+   52  git branch
+   53  ls
+   54  git log --oneline
+   55  git merge new
+   56  ls
+   57  git log --oneline
+   58  git branch
+   59  ls
+   60  git push origin main
+   61  ls
+   62  git branch
+   63  ls
+   64  vi file3
+   65  git add .
+   66  git commit -m "blue"
+   67  git checkout new
+   68  git branch
+   69  ls
+   70  vi file3
+   71  git add .
+   72  git commit -m "red"
+   73  git branch
+   74  git checkout main
+   75  git branch
+   76  git merge new
+   77  vi file3
+   78  git add .
+   79  git commit -m "fixed conflict"
+   80  git branch
+   81  ls
+   82  cat file3
+   83  ls
+   84  git branch
+   85  vi file4
+   86  git add file4
+   87  git status
+   88  cat file4
+   89  git reset file4
+   90  git status
+   91  vi file4
+   92  git add .
+   93  git status
+   94  git commit -m "my latest code"
+   95  git log --oneline
+   96  cat file4
+   97  git revert b3f9b5c
+   98  ls
+   99  git status
+  100  git log --oneline
+  101  git show b3f9b5c
+  102  git show 842cc94
+  103  ls
+  104  touch testfile{1..10}
+  105  ls
+  106  git status
+  107  git clean -n
+  108  git clean -f
+  109  ls
+  110  git log --oneline
+  111  git tag -a imp -m "my imp commit" fd542ca
+  112  git log --oneline
+  113  git show imp
+  114  git tag
+  115  git tag -d imp
+  116  git tag
+  117  git log --oneline
+  118  history
